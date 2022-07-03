@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/insurance-order.iml" filepath="$PROJECT_DIR$/insurance-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/insurance-order-common/insurance-order-common.iml" filepath="$PROJECT_DIR$/insurance-order-common/insurance-order-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/insurance-order-connector/insurance-order-connector.iml" filepath="$PROJECT_DIR$/insurance-order-connector/insurance-order-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/insurance-order-entity/insurance-order-entity.iml" filepath="$PROJECT_DIR$/insurance-order-entity/insurance-order-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/insurance-order-gateway/insurance-order-gateway.iml" filepath="$PROJECT_DIR$/insurance-order-gateway/insurance-order-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/insurance-order-outside-connector/insurance-order-outside-connector.iml" filepath="$PROJECT_DIR$/insurance-order-outside-connector/insurance-order-outside-connector.iml" />
+    </modules>
+  </component>
+</project>

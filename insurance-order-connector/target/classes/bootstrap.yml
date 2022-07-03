@@ -1,0 +1,44 @@
+server:
+  port: 8030
+  servlet:
+    context-path: /order
+spring:
+  profiles:
+    active: dev
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: insurance-order-connector
+  cloud:
+    nacos:
+      config:
+        group: ${spring.profiles.active}
+        prefix: ${spring.application.name}
+        file-extension: yml
+        shared-configs:
+          - dataId: insurance-order-baseconfig-${spring.profiles.active}.yml
+            group: ${spring.profiles.active}
+            refresh: true
+          - dataId: insurance-order-common-${spring.profiles.active}.yml
+            group: ${spring.profiles.active}
+            refresh: true
+          - dataId: logback-desensitize.yml
+            group: ${spring.profiles.active}
+            refresh: true
+          - dataId: insurance-order-config-${spring.profiles.active}.yml
+            group: ${spring.profiles.active}
+            refresh: true
+        max-retry: 10
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 169.254.115.209:8848
+        namespace: a9710acf-9ffe-42ef-89b1-fa611099567b
+      config:
+        server-addr: 169.254.115.209:8848
+        namespace: a9710acf-9ffe-42ef-89b1-fa611099567b

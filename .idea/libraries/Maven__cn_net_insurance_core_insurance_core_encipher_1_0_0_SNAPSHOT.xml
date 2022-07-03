@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: cn.net.insurance.core:insurance-core-encipher:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../soft/maven/apache-maven-3.5.3-bin/apache-maven-3.5.3/lib/repository/cn/net/insurance/core/insurance-core-encipher/1.0.0-SNAPSHOT/insurance-core-encipher-1.0.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../soft/maven/apache-maven-3.5.3-bin/apache-maven-3.5.3/lib/repository/cn/net/insurance/core/insurance-core-encipher/1.0.0-SNAPSHOT/insurance-core-encipher-1.0.0-SNAPSHOT-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../soft/maven/apache-maven-3.5.3-bin/apache-maven-3.5.3/lib/repository/cn/net/insurance/core/insurance-core-encipher/1.0.0-SNAPSHOT/insurance-core-encipher-1.0.0-SNAPSHOT-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

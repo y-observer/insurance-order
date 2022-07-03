@@ -1,0 +1,7 @@
+cn\net\insurance\order\InsuranceOrderConnectorApplication.class
+cn\net\insurance\order\mapper\DictionaryMapper.class
+cn\net\insurance\order\service\DictionaryService.class
+cn\net\insurance\order\controller\LoginController.class
+cn\net\insurance\order\listener\OrderConsumer.class
+cn\net\insurance\order\controller\DictionaryController.class
+cn\net\insurance\order\service\impl\DictionaryServiceImpl.class

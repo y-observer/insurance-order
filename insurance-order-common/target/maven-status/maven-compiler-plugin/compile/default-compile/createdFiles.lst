@@ -1,0 +1,8 @@
+cn\net\insurance\order\common\config\RestTemplateConfig.class
+cn\net\insurance\order\common\constant\RedisKeys.class
+cn\net\insurance\order\common\utils\ServiceExchangeUtils.class
+cn\net\insurance\order\common\config\RedisConfig.class
+cn\net\insurance\order\common\constant\ServerUrlConstants.class
+cn\net\insurance\order\common\entity\AccountCacheDto.class
+cn\net\insurance\order\common\enums\SystemTypeEnum.class
+cn\net\insurance\order\common\feign\InsuranceOrderOutsideFeign.class

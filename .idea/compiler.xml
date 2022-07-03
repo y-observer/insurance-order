@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="insurance-order-connector" />
+        <module name="insurance-order-outside-connector" />
+        <module name="insurance-order-entity" />
+        <module name="insurance-order-common" />
+        <module name="insurance-order-gateway" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="insurance-oms-common" target="1.8" />
+      <module name="insurance-oms-entity" target="1.8" />
+      <module name="insurance-oms-order-connector" target="1.8" />
+      <module name="insurance-oms-order-gateway" target="1.8" />
+      <module name="insurance-order" target="1.8" />
+      <module name="insurance-order-common" target="1.8" />
+      <module name="insurance-order-connector" target="1.8" />
+      <module name="insurance-order-demo-connector" target="1.8" />
+      <module name="insurance-order-entity" target="1.8" />
+      <module name="insurance-order-gateway" target="1.8" />
+      <module name="insurance-order-outside-connector" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="insurance-oms-common" options="-parameters" />
+      <module name="insurance-oms-entity" options="-parameters" />
+      <module name="insurance-oms-order-connector" options="-parameters" />
+      <module name="insurance-oms-order-gateway" options="-parameters" />
+      <module name="insurance-order-common" options="-parameters" />
+      <module name="insurance-order-connector" options="-parameters" />
+      <module name="insurance-order-demo-connector" options="-parameters" />
+      <module name="insurance-order-entity" options="-parameters" />
+      <module name="insurance-order-gateway" options="-parameters" />
+      <module name="insurance-order-outside-connector" options="-parameters" />
+    </option>
+  </component>
+</project>

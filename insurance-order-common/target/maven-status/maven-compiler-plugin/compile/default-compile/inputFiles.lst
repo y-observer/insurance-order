@@ -1,0 +1,8 @@
+D:\project\insurance-order\insurance-order-common\src\main\java\cn\net\insurance\order\common\config\RedisConfig.java
+D:\project\insurance-order\insurance-order-common\src\main\java\cn\net\insurance\order\common\config\RestTemplateConfig.java
+D:\project\insurance-order\insurance-order-common\src\main\java\cn\net\insurance\order\common\constant\RedisKeys.java
+D:\project\insurance-order\insurance-order-common\src\main\java\cn\net\insurance\order\common\constant\ServerUrlConstants.java
+D:\project\insurance-order\insurance-order-common\src\main\java\cn\net\insurance\order\common\feign\InsuranceOrderOutsideFeign.java
+D:\project\insurance-order\insurance-order-common\src\main\java\cn\net\insurance\order\common\utils\ServiceExchangeUtils.java
+D:\project\insurance-order\insurance-order-common\src\main\java\cn\net\insurance\order\common\entity\AccountCacheDto.java
+D:\project\insurance-order\insurance-order-common\src\main\java\cn\net\insurance\order\common\enums\SystemTypeEnum.java

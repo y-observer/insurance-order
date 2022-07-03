@@ -1,0 +1,35 @@
+server:
+  port: 8029
+spring:
+  profiles:
+    active: dev
+  application:
+    name: insurance-order-gateway
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      config:
+        group: ${spring.profiles.active}
+        prefix: ${spring.application.name}
+        file-extension: yml
+        shared-configs:
+          - dataId: insurance-order-baseconfig-${spring.profiles.active}.yml
+            group: ${spring.profiles.active}
+            refresh: true
+          - dataId: insurance-order-common-${spring.profiles.active}.yml
+            group: ${spring.profiles.active}
+            refresh: true
+---
+spring:
+  config:
+    activate:
+      on-profile: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 169.254.115.209:8848
+        namespace: a9710acf-9ffe-42ef-89b1-fa611099567b
+      config:
+        server-addr: 169.254.115.209:8848
+        namespace: a9710acf-9ffe-42ef-89b1-fa611099567b
