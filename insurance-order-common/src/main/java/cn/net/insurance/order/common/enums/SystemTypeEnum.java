@@ -3,7 +3,7 @@ package cn.net.insurance.order.common.enums;
 
 public enum SystemTypeEnum {
 
-    INSURANCE(1,"oms");
+    INSURANCE(1,"insurance");
 
     private String name;
     private Integer value;

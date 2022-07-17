@@ -37,7 +37,7 @@ public class DictionaryServiceImpl implements DictionaryService {
     public List<Dictionary> queryDictionaryByTypeCode(String typeCode) {
         Map map= new HashMap();
         map.put("name","李四");
-        String res =  redisTemplate.opsForValue().get("oms:oms:user:userId:-1");
+        String res =  redisTemplate.opsForValue().get("oms:insurance:user:userId:-1");
         log.info("[redis]测试-->" + res);
         rocketMQTemplate.convertAndSend(insuranceOrderTopic,"rockeMq测试");
         insuranceOrderOutsideFeign.syncStatus(map);

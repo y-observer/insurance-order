@@ -37,8 +37,8 @@ spring:
   cloud:
     nacos:
       discovery:
-        server-addr: 169.254.115.209:8848
+        server-addr: 169.254.115.209:8898
         namespace: a9710acf-9ffe-42ef-89b1-fa611099567b
       config:
-        server-addr: 169.254.115.209:8848
+        server-addr: 169.254.115.209:8898
         namespace: a9710acf-9ffe-42ef-89b1-fa611099567b

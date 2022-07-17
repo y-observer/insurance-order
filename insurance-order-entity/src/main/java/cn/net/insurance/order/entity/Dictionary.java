@@ -3,6 +3,7 @@ package cn.net.insurance.order.entity;
 import cn.net.insurance.core.mybatis.entity.BaseEntity;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableName;
+import io.swagger.annotations.ApiModel;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,6 +13,7 @@ import lombok.NoArgsConstructor;
  * @author
  */
 @Data
+@ApiModel("数据字典实体类")
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
